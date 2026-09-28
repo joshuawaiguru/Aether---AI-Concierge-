@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  --color-surface: #121317;
+  --color-surface-dim: #121317;
+  --color-surface-bright: #38393e;
+  --color-surface-container-lowest: #0d0e12;
+  --color-surface-container-low: #1a1b20;
+  --color-surface-container: #1f1f24;
+  --color-surface-container-high: #292a2e;
+  --color-surface-container-highest: #343439;
+  --color-on-surface: #e3e2e8;
+  --color-on-surface-variant: #cbc3d7;
+  --color-primary: #d0bcff;
+  --color-on-primary: #3c0091;
+  --color-primary-container: #a078ff;
+  --color-on-primary-container: #340080;
+  --color-primary-fixed: #e9ddff;
+  --color-primary-fixed-dim: #d0bcff;
+  --color-inverse-primary: #6d3bd7;
+  --color-secondary: #4cd7f6;
+  --color-on-secondary: #003640;
+  --color-secondary-container: #03b5d3;
+  --color-on-secondary-container: #00424e;
+  --color-secondary-fixed: #acedff;
+  --color-secondary-fixed-dim: #4cd7f6;
+  --color-tertiary: #ffb0cd;
+  --color-tertiary-container: #f751a1;
+  --color-tertiary-fixed: #ffd9e4;
+  --color-outline: #958ea0;
+  --color-outline-variant: #494454;
+  --font-display: "Plus Jakarta Sans", sans-serif;
+  --font-body: "Manrope", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+body {
+  font-family: var(--font-body), sans-serif;
+  background-color: #121317;
+  color: #e3e2e8;
+  overscroll-behavior: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display), sans-serif;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

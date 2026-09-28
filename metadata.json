@@ -1,0 +1,6 @@
+{
+  "name": "Aether - AI Concierge & Neural Glass Lounge",
+  "description": "Bespoke luxury digital sanctuary for private aviation, haute horlogerie, five-star itineraries, and real-time liquid glass optical shader engine.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
